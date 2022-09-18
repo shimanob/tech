@@ -568,7 +568,7 @@ strong,
 
 /* - Main  about */
 #about {
-  background-image: url(image/bg02.jpg);
+  background-image: url();
   background-size: cover;
   background-position: center center;
 }
@@ -719,6 +719,7 @@ a.recruit-list_link:hover i::before {
 .fnav {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap
 }
 .fnav_item {
   margin-right: 2em;
@@ -730,6 +731,7 @@ a.recruit-list_link:hover i::before {
 .fmenu {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .fmenu_link {
